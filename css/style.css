@@ -1,0 +1,489 @@
+
+body{
+	padding: 0;
+	margin: 0;
+
+	font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+
+}
+
+
+a {
+	text-decoration: none;
+}
+ 
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.col-100 {
+	position: relative;
+	width: 100%;
+}
+
+main, .content {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+/*******  Primeiro menu *********/
+	.menu-1 {
+		background: #333;
+		height: 45px;
+	}
+
+	.header-1 {
+		width: 60%;
+		margin: 0 auto
+	}
+	.menu-1 p{
+		 margin: 13px;
+		color: #696969;
+		float: left;
+	}
+
+	.menu-1 ul{
+		float: right;
+	}
+
+	.menu-1 ul li {
+		display: inline-block;
+	    padding: 10px 8px 13px 0px
+	}
+
+	.menu-1 ul li a {
+		color: #696969;
+	    padding: 14px 15px 15px 15px;
+	}
+
+	.menu-1 ul li:hover{
+		background-color: #00c8c8;
+
+	}
+	.menu-1 ul li a:hover{
+		color: #fff;
+	}
+
+
+
+	.sacola >p:after, .sacola >a:after{
+	    content: "";
+	    float: right;
+	    background-repeat: no-repeat;
+	    position: relative;
+	    width: 8px;
+	    height: 6px;
+	}
+
+	.sacola >p:after{
+	    top: 5px;
+	    left: 10px;
+	    background-image: url(../img/seta_normal.png);
+	}
+
+	.sacola >a:after{
+		top: 8px;
+		background-image: url(../img/seta_branca.png);
+	}
+/******* FIM Primeiro menu *********/
+
+/*******  Segundo menu *********/
+
+	.busca{
+		right: 0px;
+		top: 2px;
+		position: absolute;
+		width: 178px;
+	}
+	.busca input {
+		height: 28px;
+		color: #989898;
+	    background: #f8f8f8;
+	    border: 2px solid #e7e7e7;
+	}
+
+	.busca:before {
+	    content: "";
+	    background-image: url(../img/lupa.png);
+	    background-repeat: no-repeat;
+	    float: right;
+	    width: 17px;
+	    top: 25px;
+	    right: 5px;
+	    height: 15px;
+	    position: relative;
+	    display: block;
+	}
+	#sacola{
+		padding: 14px;
+		margin-left: 30px;
+		background-color: #00c8c8;
+	}
+
+	.sacola img {
+		margin-right: 14px;
+	}
+
+	.menu-2 {
+		height: 687px;
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    background-image: url(../img/banner1.png);
+	    display: inline-block;
+	}
+
+	.menu-2 img {
+		width: 100%;
+		position: absolute;
+	}
+
+	.menu-2 h2 {
+	    margin-top: 20px;
+    	margin-bottom: 0px;
+		float: left;
+		color: #222222;
+		text-transform: uppercase;
+	}
+
+	.menu-nav{
+		margin-top: 10px;
+		list-style:none; 
+	}
+
+	.menu-nav1 {
+		margin-right: 230px;
+		float: right;
+	}
+
+	.menu-nav li {
+		padding: 10px 15px;
+		position: relative;
+		display: inline-block;
+	}
+
+	.menu-nav > li >a{
+	    background: left;
+	    background-position: bottom left;
+	    background-image: url(../img/seta_normal.png);
+	    background-repeat: no-repeat;
+	}
+
+	.menu-nav li a {
+	    padding: 5px 10px 12px 0;
+	    color: #222;
+	    font-size: 13px;
+	    text-decoration: bold;
+	    display: block;
+	}
+
+	.menu-nav >li> a:hover {
+		color: #00c8c8;
+		background-image: url(../img/seta_hover.png);
+	}
+
+	.sub-menu li a:hover {
+		color: #00c8c8;
+	}
+
+
+	.sub-menu{
+		position:absolute;
+		display: block;
+		padding: 20px;
+		top: 51px;
+		visibility: hidden;
+		background: #f8f8f8;
+	    box-shadow: 0px 10px 13px 1px #dbdbdb;
+	}
+	.qb-1{
+		display:flex;
+	}
+	.tipo1{
+		float: left;
+		width: 200px;
+	}
+	.tipo2 {
+		float: right;
+		width: 200px;
+	}
+
+	.tipo1 ul li, .tipo2 ul li {
+		
+	    display: block;
+	    padding: 10px 0px 10px 0px;
+	}
+
+	.menu-nav li:hover .sub-menu{
+		visibility: visible;
+	}
+	.upper {
+		text-transform: uppercase;
+	    padding: 10px 10px 10px 0;
+		
+	}
+
+	.box-banner {
+		background: #333333;
+		width: 408;
+		height: 200px;
+		margin-top: 35px;
+	}
+
+	.box-banner p {
+	    color: #fff;
+	    text-transform: uppercase;
+	    font-size: 36px;
+	    margin: 0 auto;
+	    text-align: center;
+	    padding: 48px;
+	}
+
+	.cta {
+
+	    width: 342px;
+	    height: 58px;
+	    border: 2px solid #737373;
+	  
+	}
+
+	.cta p{
+	    padding: 20px;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+
+/*******  FIM  Segundo menu *********/
+
+.borda {
+	border-bottom: 3px solid #eee;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/*******  Terceira  *********/
+
+	.menu-nav2 {
+		
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.menu-nav2 li {
+		text-transform: uppercase;
+		padding: 10px 15px 10px 0px;
+	}
+
+	.menu-nav a:hover {
+		color: #33d3d3;
+	}
+
+	.produtos {
+		border: 1px solid black;
+		display: inline-flex;
+		position: relative;
+	}
+
+	.row{
+		margin: 0px;
+	}
+
+	.box1{
+		float: left;
+	    overflow: hidden; 
+	    width: 47%;
+	    border: 1px solid black;
+	    position: relative;
+	    margin: 10px 10px 10px 10px;
+	    background-color: #f8f8f8;
+		}
+
+	.box2 img {
+		padding-left: 100px;
+	}
+
+
+
+	.box2{
+		overflow: hidden;
+	    float: left;
+	    width: 97%;
+	    border: 1px solid black;
+	    /* position: relative; */
+	    margin: 10px 10px 10px 10px;
+	    background-color: #f8f8f8;
+	}
+
+
+/*********** Usando Masonry para grids de produtos ************/
+
+.grid {
+  min-width: 1200px;
+  max-width: 1800px;
+  margin: 0 auto;
+
+}
+
+.grid-sizer,
+.grid-item {
+
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+  position: absolute; 
+  overflow: hidden;
+  float: left;
+  margin: 12px;
+  background-color: #f8f8f8;
+  
+  border-radius: 5px;
+}
+
+.grid-item--width1 { 
+	width:  23%; 
+}
+.grid-item--width2 { 
+	width:  48%; 
+}
+
+.grid-item--height1 { 
+	height: auto; 
+}
+.grid-item--height2 { 
+	height: auto; 
+}
+.grid-item--height4 { 
+	height: 360px; 
+}
+
+.grid img {
+	width: 100%;
+}
+
+.grid-item span {
+	position: absolute;
+    /* background-color: red; */
+    left: 0px;
+    padding: 10px;
+    color: #a0a0a0;
+}
+
+.produtos_destaque {
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+}
+
+.col-3 {
+	overflow: hidden;
+	margin: 45px 7px;
+	float: left;
+	background-color: #f8f8f8;
+	width: 32%;
+	height: 444px;
+
+}
+
+.imagem {
+	padding-top: 50px;
+	padding-left: 10px;
+	width: 45%;
+	float: left;
+}
+
+.imagem img {
+	width: 100%;
+}
+
+.descricao {
+	text-align: right;
+	font-size: 15px;
+	padding: 65px 20px 10px 0px;
+	width: 45%;
+	float: right;
+}
+
+.descricao h1 {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.descricao span {
+	font-weight: normal;
+}
+
+.btn {
+	background-color: #f8f8f8;
+	color: #454647;
+	padding-top: 8px;
+	width: 100px;
+	height: 25px;
+	float: right;
+	border: 1px solid #737373;
+	text-align: center;
+}
+
+.btn:hover{
+	cursor: pointer;
+	background-color: #00c8c8;
+	color: #f8f8f8;
+	border: none;
+}
+
+.rodape {
+	height: 500px;
+	position: relative;
+	background-color: #f8f8f8;
+
+}
+
+.col-5 {
+	margin-top: 45px;
+	padding: 0px;
+	float: left;
+    width: 19%;
+    height: 200px;
+}
+
+.col-5 h3 {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #777274;
+}
+
+.col-5 ul{
+	line-height: 1.4em;
+}
+.col-5 ul li{
+	font-size: 14px;
+	list-style: none;
+	color: #727272;
+}
+
+.col-5 ul li a{
+	color: #727272;
+	font-size: 14px;
+}
+
+.rodape-nav {
+	width: 75%;
+    margin: 0 auto;
+}
+
+.col-2 {
+	padding: auto;
+	font-size: 36px;
+	position: relative;
+	width: 49%;
+	height: 200px;
+	float: left;
+	border: 1px solid black;
+}
